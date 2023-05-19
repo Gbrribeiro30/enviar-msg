@@ -2,9 +2,6 @@ import pyautogui as pa #pip install pyautogui
 import time
 import pyperclip
 
-#time.sleep(5)
-#print(pa.position())
-
 contato= 'Irmão'
 pyperclip.copy(contato)
 
