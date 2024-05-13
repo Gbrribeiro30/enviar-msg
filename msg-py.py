@@ -134,10 +134,10 @@ def tardeAgua():
 
 schedule.every().day.at("06:30").do(manha)
 schedule.every().wednesday.at("06:31").do(manhaAgua)
-schedule.every().monday.at("06:31").do(manhaAgua)
+schedule.every().sunday.at("06:31").do(manhaAgua)
 schedule.every().day.at("17:00").do(tarde)
 schedule.every().wednesday.at("17:01").do(tardeAgua)
-schedule.every().monday.at("17:01").do(tardeAgua)
+schedule.every().sunday.at("17:01").do(tardeAgua)
 
 
 while True:
