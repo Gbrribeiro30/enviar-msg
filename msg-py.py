@@ -132,9 +132,9 @@ def tardeAgua():
     pa.hotkey('enter')
     time.sleep(0.5)
 
-schedule.every().day.at("06:30").do(manha)
-schedule.every().wednesday.at("06:30:30").do(manhaAgua)
-schedule.every().sunday.at("06:30:30").do(manhaAgua)
+schedule.every().day.at("08:10").do(manha)
+schedule.every().wednesday.at("08:10:30").do(manhaAgua)
+schedule.every().sunday.at("08:10:30").do(manhaAgua)
 schedule.every().day.at("17:00").do(tarde)
 schedule.every().wednesday.at("17:00:30").do(tardeAgua)
 schedule.every().sunday.at("17:00:30").do(tardeAgua)
