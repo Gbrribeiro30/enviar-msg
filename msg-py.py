@@ -37,6 +37,7 @@ def manha():
     time.sleep(0.5)
     pa.hotkey('enter')
     time.sleep(0.5)
+    pa.hotkey('alt', 'tab')
 
 def manhaAgua(): 
     #abrir o wpp
