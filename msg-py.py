@@ -68,6 +68,7 @@ def manhaAgua():
     time.sleep(0.5)
     pa.hotkey('enter')
     time.sleep(0.5)
+    pa.hotkey('alt', 'tab')
 
 def tarde():        
 
@@ -100,6 +101,7 @@ def tarde():
     time.sleep(0.5)
     pa.hotkey('enter')
     time.sleep(0.5)
+    pa.hotkey('alt', 'tab')
 
 def tardeAgua():        
 
@@ -132,6 +134,7 @@ def tardeAgua():
     time.sleep(0.5)
     pa.hotkey('enter')
     time.sleep(0.5)
+    pa.hotkey('alt', 'tab')
 
 schedule.every().day.at("08:10").do(manha)
 schedule.every().wednesday.at("08:10:30").do(manhaAgua)
