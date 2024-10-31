@@ -19,11 +19,11 @@ time.sleep(1)
 #buscar contato
 pa.hotkey("ctrl", "f")
 pa.hotkey("ctrl", "v")
-time.sleep(1)
+time.sleep(2)
 #mandar msg
 py.copy(msg)
 pa.click(242, 190)
-time.sleep(1)
+time.sleep(2)
 i = 0
 while i < quant:
     pa.hotkey("ctrl", "v")
