@@ -23,10 +23,10 @@ time.sleep(2)
 #mandar msg
 py.copy(msg)
 pa.click(242, 190)
-time.sleep(2)
+time.sleep(10)
 i = 0
 while i < quant:
     pa.hotkey("ctrl", "v")
     pa.hotkey('enter')
-    time.sleep(0.5)
+    time.sleep(5)
     i = i+1
